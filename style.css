@@ -1,0 +1,275 @@
+/*----------------------------
+      google fonts link 
+-----------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/*----------------------------
+   common utilities 
+-----------------------------*/
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*----------------------------
+        top banner section  
+-----------------------------*/
+.kicked-person:hover {
+  transform: translate(10px, 10px) rotate(15deg) skewX(15deg);
+  transform-origin: right top;
+  transition: transform 0.3s ease-in-out 0.01s;
+}
+.top-banner {
+  padding-top: 50px;
+  max-width: 1440px;
+  height: 677px;
+  background-color: #2d25a0;
+}
+.top-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 102px;
+}
+.thumbnail {
+  margin-top: 49px;
+  margin-bottom: 86px;
+}
+.left-thumbnail {
+  width: 485px;
+  height: 230px;
+  margin-left: 156px;
+}
+.left-thumbnail h1 {
+  font-size: 64px;
+  line-height: 80px;
+  color: #ffffff;
+}
+.left-thumbnail a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  width: 168px;
+  height: 44px;
+  margin-top: 27px;
+  color: #ffffff;
+  background-color: #e02c6d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-thumbnail {
+  width: 556.01px;
+  height: 438px;
+  margin-right: 140.99px;
+}
+.right-thumbnail img {
+  width: 556.01px;
+  height: 438px;
+}
+
+/*----------------------------
+        gallery section  
+-----------------------------*/
+
+.players {
+  margin: 70px 114px 165px 114px;
+  display: grid;
+  grid-template-columns: repeat(3, 12fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 27px;
+}
+.player {
+  width: 330px;
+  height: 474px;
+  padding: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 22px 3px rgb(0 0 0 / 15%);
+}
+.player img {
+  width: 330px;
+  height: 256px;
+}
+.player h2 {
+  font-size: 28px;
+  line-height: 40px;
+  color: #18191f;
+  margin-top: 8px;
+}
+.player p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #6c6c6c;
+  margin-top: 10px;
+}
+
+/*----------------------------
+      bottom banner section  
+-----------------------------*/
+
+.bottom-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 66px;
+  margin: 165px 58px 110px 58px;
+}
+.bottom-left-thumbnail {
+  margin-top: 59px;
+}
+.bottom-left-thumbnail h2 {
+  font-size: 48px;
+  line-height: 60px;
+  color: #18191f;
+}
+.bottom-left-thumbnail p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #6c6c6c;
+  margin-top: 8px;
+}
+.bottom-left-thumbnail a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  width: 173px;
+  height: 44px;
+  margin-top: 24px;
+  color: #ffffff;
+  background-color: #e02c6d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-right-thumbnail img {
+  width: 567px;
+  height: 427px;
+}
+
+/*----------------------------
+     Highlight section  
+-----------------------------*/
+.highlights-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.highlights-title {
+  font-size: 36px;
+  line-height: 40px;
+  color: #18191f;
+  margin-bottom: 50px;
+}
+.highlights {
+  width: 100%;
+  height: 400px;
+  background-color: #061d48;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.popular-matches {
+  height: 367px;
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.popular-matches h2 {
+  font-size: 24px;
+  line-height: 40px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+/*----------------------------
+     sponsor section  
+-----------------------------*/
+.sponsor-title {
+  font-size: 24px;
+  line-height: 40px;
+  color: #18191f;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+.sponsors {
+  height: 350px;
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  margin-bottom: 150px;
+}
+.sponsor-logo img {
+  height: 150px;
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*----------------------------
+     footer section  
+-----------------------------*/
+
+.football {
+  width: 483.87px;
+  height: 213px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.football img {
+  width: 460.87px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.social-icon {
+  width: 170px;
+  height: 32px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 14px;
+  margin: 0 auto;
+}
+.icon-shape {
+  width: 32px;
+  height: 32px;
+  background-color: #d9d7d8;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-instagram.filled {
+  color: #969cac;
+}
+.fa-facebook-square.filled {
+  color: #969cac;
+}
+.fa-twitter.filled {
+  color: #969cac;
+}
+.fa-youtube.filled {
+  color: #969cac;
+}
+.football p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  margin-top: 20px;
+}

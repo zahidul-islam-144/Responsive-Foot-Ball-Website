@@ -1,0 +1,232 @@
+/*----------------------------
+        top banner section  
+-----------------------------*/
+
+/* for mobile device */
+
+@media only screen and (max-width: 688px) {
+  .kicked-person:hover {
+    transform: skew(15deg) rotate(15deg);
+    transform-origin: right top;
+    transition: transform 0.2s ease-in-out 0.01s;
+  }
+
+  .top-banner {
+    width: 100%;
+    height: 695px;
+    background-color: #2d25a0;
+  }
+  .top-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 50px;
+  }
+  .left-thumbnail {
+    width: 278px;
+    height: 138px;
+    margin: 112px 66px 0px 16px;
+  }
+  .left-thumbnail h1 {
+    font-size: 36px;
+    line-height: 50px;
+    color: #ffffff;
+  }
+  .left-thumbnail a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    width: 168px;
+    height: 44px;
+    margin: 30px 173px 0px 19px;
+    color: #ffffff;
+    background-color: #e02c6d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .right-thumbnail {
+    width: 329px;
+    height: 259.17px;
+    margin-right: 0px;
+  }
+  .right-thumbnail img {
+    width: 329px;
+    height: 259.17px;
+    margin: 75px 16px 61.83px 15px;
+  }
+
+  /*----------------------------
+     gallery section 
+-----------------------------*/
+
+  .players {
+    margin: 47px 15px 0px 15px;
+    display: grid;
+    grid-template-columns: repeat(1, 12fr);
+    grid-row-gap: 24px;
+    grid-row-gap: 24px;
+  }
+  .player {
+    width: 300px;
+    height: 426px;
+    padding: 15px 15px 15px 15px;
+    box-shadow: 0px 0px 22px 3px rgb(0 0 0 / 15%);
+  }
+  .player img {
+    width: 300px;
+    height: 256px;
+  }
+  .player h2 {
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191f;
+    margin-top: 16px;
+  }
+  .player p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #6c6c6c;
+    margin-top: 10px;
+  }
+
+  /*----------------------------
+      bottom banner section  
+-----------------------------*/
+
+  .bottom-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 29px;
+    margin: 60px 15px 43px 15px;
+  }
+  .bottom-left-thumbnail h2 {
+    font-size: 30px;
+    line-height: 40px;
+    color: #18191f;
+  }
+  .bottom-left-thumbnail p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #6c6c6c;
+    margin-top: 8px;
+  }
+  .bottom-left-thumbnail a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    width: 173px;
+    height: 44px;
+    margin-top: 24px;
+    color: #ffffff;
+    background-color: #e02c6d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bottom-right-thumbnail img {
+    width: 328px;
+    height: 248px;
+  }
+
+  /*----------------------------
+     highlight section  
+-----------------------------*/
+  .highlights-title {
+    font-size: 22px;
+    color: #18191f;
+    margin-bottom: 15px;
+  }
+  .highlights {
+    height: 100%;
+    background-color: #061d48;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .popular-matches {
+    height: 367px;
+    width: 80%;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 20px;
+    align-items: center;
+
+    position: relative;
+    overflow: hidden;
+    /* padding-top: 66.66%; */
+    padding-top: 1.25%;
+  }
+  .popular-matches .responsive-iframe {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .popular-matches h2 {
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: -73px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+  }
+  /*----------------------------
+     sponsor section  
+-----------------------------*/
+  .sponsor-title {
+    font-size: 24px;
+    line-height: 40px;
+    color: #18191f;
+    margin-left: 62px;
+    margin-top: 100px;
+  }
+  .sponsors {
+    height: 116px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    margin-bottom: 65px;
+  }
+  .sponsor-logo img {
+    height: 45px;
+    width: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*----------------------------
+     footer section  
+-----------------------------*/
+
+  .football {
+    width: 360px;
+    height: 213px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .football img {
+    width: 225px;
+    height: 65px;
+    /* margin-bottom: 187px; */
+  }
+  .football p {
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 85px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
